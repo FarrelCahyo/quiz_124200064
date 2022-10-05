@@ -114,6 +114,14 @@ class _detailState extends State<detail> {
                               height: 30,
                             ),
                             Text(
+                              "Rata-rata Penilaian : \⭐ ${widget.list.reviewAverage}",
+                              style: TextStyle(
+                                  fontSize: 16, fontWeight: FontWeight.normal),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
                               "Toko : ${widget.list.storeName}",
                               style: TextStyle(
                                   fontSize: 16, fontWeight: FontWeight.normal),
